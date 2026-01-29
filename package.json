@@ -1,0 +1,25 @@
+{
+  "name": "motqdmon_final",
+  "version": "1.0.0",
+  "description": "Backend API for scraping and serving Gaza aid news from almotaqadimon.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "ALAA S AMER",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
